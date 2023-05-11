@@ -1,0 +1,13 @@
+com/example/movies/repository/RatingsRepository.class
+com/example/movies/advice/MoviesNotFoundExceptionHandler.class
+com/example/movies/dto/RatingsDTO.class
+com/example/movies/service/RatingsService.class
+com/example/movies/configuration/MoviesConfiguration.class
+com/example/movies/repository/MoviesRepository.class
+com/example/movies/entity/Ratings.class
+com/example/movies/controller/MoviesController.class
+com/example/movies/dto/MoviesDTO.class
+com/example/movies/service/MoviesService.class
+com/example/movies/exception/MoviesNotFoundException.class
+com/example/movies/entity/Movies.class
+com/example/movies/MoviesApplication.class

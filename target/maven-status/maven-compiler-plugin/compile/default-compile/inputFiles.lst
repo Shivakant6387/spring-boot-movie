@@ -1,0 +1,13 @@
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/repository/RatingsRepository.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/exception/MoviesNotFoundException.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/configuration/MoviesConfiguration.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/service/RatingsService.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/MoviesApplication.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/advice/MoviesNotFoundExceptionHandler.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/dto/MoviesDTO.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/repository/MoviesRepository.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/entity/Ratings.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/service/MoviesService.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/dto/RatingsDTO.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/entity/Movies.java
+/home/giitian/Desktop/spring-boot-movie/src/main/java/com/example/movies/controller/MoviesController.java
