@@ -181,27 +181,22 @@ class MoviesApplicationTests {
 		String actualJson = result.getResponse().getContentAsString();
 		JSONAssert.assertEquals(expectedJson, actualJson, false);
 	}
-//
-//	@Test
-//	public void testGetMovie() throws Exception {
-//		String tconst = "tt1234567";
-//		Movies movie = new Movies();
-//		movie.setTconst(tconst);
-//		movie.setTitleType("Movie");
-//		movie.setGenres("action");
-//		movie.setPrimaryTitle("un bon bock");
-//		movie.setRuntimeMinutes(32);
-//		Optional<Movies> optionalMovie = Optional.of(movie);
-//
-//		given(moviesService.getMovie(tconst)).willReturn(optionalMovie);
-//
-//		mockMvc.perform(get("/api/v1/{tconst}", tconst))
-//				.andExpect(status().isOk())
-//				.andExpect((ResultMatcher) jsonPath("$.title", is(movie.getTitleType())));
-//	}
-//
-//	private RequestBuilder get(String urlTemplate, String tconst) {
-//		return MockMvcRequestBuilders.get(urlTemplate, tconst)
-//				.contentType(MediaType.APPLICATION_JSON);
-//	}
+
+	@Test
+	public void testGetMovie() throws Exception {
+		String tconst = "tt1234567";
+		Movies movie = new Movies();
+		movie.setTconst(tconst);
+		movie.setTitleType("Movie");
+		movie.setGenres("action");
+		movie.setPrimaryTitle("un bon bock");
+		movie.setRuntimeMinutes(32);
+		Optional<Movies> optionalMovie = Optional.of(movie);
+
+		given(moviesService.getMovie(tconst)).willReturn(optionalMovie);
+
+		mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/{tconst}", tconst))
+				.andExpect(status().isOk())
+				.andReturn().getResponse();
+	}
 }
